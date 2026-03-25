@@ -41,3 +41,14 @@ if __name__ == "__main__":
 
     result = run_calculator(input_formula, input_num)
     print(result)
+
+import math
+
+def calculate_hypotenuse(a, b):
+    return math.sqrt(a**2 + b**2)
+
+def calculate_power(base, exponent):
+    return base ** exponent
+
+def calculate_remainder(a, b):
+    return a % b
