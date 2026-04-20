@@ -1,5 +1,5 @@
 """This module contains the calculator functions for the formulas square, tri, lazy caterer, and magic squares"""
-
+import math
 
 def squareNums(n):
     """Calculates the square"""
@@ -41,9 +41,7 @@ if __name__ == "__main__":
 
     result = run_calculator(input_formula, input_num)
     print(result)
-
-import math
-
+    
 def calculate_hypotenuse(a, b):
     return math.sqrt(a**2 + b**2)
 
